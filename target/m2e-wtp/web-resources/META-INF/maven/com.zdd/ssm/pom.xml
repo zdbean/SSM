@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zdd</groupId>
+  <artifactId>ssm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  
+  <properties>
+  	<!-- 让整个项目统一字符集编码 -->
+  	<project.buildsourceEncoding>UTF-8</project.buildsourceEncoding>
+  	<!-- 让spring统一版本号 -->
+  	<spring.framework.version>4.3.11.RELEASE</spring.framework.version>
+  	<!-- AOP -->
+  	<aspectj.version>1.8.10</aspectj.version>
+  	<!-- Jackson类库包含了很多注解，可以让我们快速建立Java类与JSON之间的关系 -->
+  	<jaskson.version>2.9.1</jaskson.version>
+  	<!-- 开源日志组件 -->
+  	<logback.version>1.2.3</logback.version>
+  </properties>
+</project>
